@@ -53,6 +53,25 @@
                  *{
                     border: 10px solid #000;
                  }
+            /*6.Group/combinational selector systax
+                 element1,element2,element3
+                 {property:value;} 
+                 */
+
+                 div,span#a1,span.c1,a[href="https://www.google.com/"]{
+                    display:inline-block;
+                 }
+             /*7. pesudo selector systax
+                 element::selector
+                 {property:value;} 
+                 */ 
+                 h1::after{
+                    content: url('https://2.bp.blogspot.com/-jPO4fmRVdWg/WLue5eEd8NI/AAAAAAAAVBA/erfb8zSkSqwGQFib82lUFubb_aCDXvnXwCLcB/s320/I-love-you-animated-emoji.gif');
+                 }
+               /*8. pesudo class selector systax
+                 element::selector
+                 {property:value;} 
+                 */   
         </style>
     </head> 
    
@@ -61,6 +80,7 @@
         <span Id ="a1"> CSS ID Selectors</span>
         <span class="c1">CSS Class Selectors</span>
         <a href="https://www.google.com/">Go to Google Website</a>
+        <h1>CSS pesudo Element selector::</h1>
 
     </body>
 </html>
