@@ -7,23 +7,35 @@
         <style>
             /*
             1.element selector syntax
-                element{property:value;}
-            2.Id slector syntax
-                element{property:value;}
-
+                element
+                {property:value;}
             */
             div{
                   width: 200px;
                   height: 100px;
                   background-color: green;  
             }
+            /*2.Id slector syntax
+                element#ID 
+                {property:value;}
+              */
             #a1{
                 display: block;
                 width: 200px;
                 height: 100px;
                 background-color: blueviolet;
-            }   
-
+            }
+            /*
+            3.Class selector systax
+                element.id
+                 {property:value;} 
+                 */   
+            span.c1{
+                display: block;
+                width: 200px;
+                height: 100px;
+                background-color: yellowgreen;
+            }
 
         </style>
     </head>
@@ -31,5 +43,7 @@
     <body>
         <div>CSS Element Selector</div>
         <span Id ="a1"> CSS ID Selectors</span>
+        <span class="c1">CSS Class Selectors</span>
+
     </body>
 </html>
